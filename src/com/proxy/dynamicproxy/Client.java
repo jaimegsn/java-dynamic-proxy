@@ -22,7 +22,7 @@ public class Client {
                 empHandler
         );
 
-        employee.giveHike(-6000);
+        employee.giveHike(6000);
         System.out.println(employee.getSalary());
     }
 }
